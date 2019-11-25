@@ -17,3 +17,7 @@
 [INFO ] 2019-11-24 23:26:23.681 [main] UserClient - Create user with name: Ihor and job: sales-manager
 [INFO ] 2019-11-25 21:33:06.058 [main] UserClient - Visit URL: https://reqres.in/api/users
 [INFO ] 2019-11-25 21:33:07.760 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-25 22:10:17.551 [main] UserClient - Visit URL: https://reqres.in/api/users
+[INFO ] 2019-11-25 22:10:18.727 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-25 22:10:58.199 [main] UserClient - Visit URL: https://reqres.in/api/users
+[INFO ] 2019-11-25 22:10:59.212 [main] UserClient - Create user with name: Ihor and job: sales-manager

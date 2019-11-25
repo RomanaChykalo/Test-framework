@@ -15,8 +15,9 @@ public class UserClientTest {
     public static void createUserTest() {
         JobUser jobUser = new JobUser("Ihor", "sales-manager");
         Response createUserResponse = userClient.createUser(jobUser);
-        Assert.assertEquals(createUserResponse.getStatus(), 201);
+        Assert.assertEquals(createUserResponse.getStatus(), Response.Status.CREATED.getStatusCode());
         CreateUserResponse userResponse = ObjectMapper.mapToEntity(createUserResponse, CreateUserResponse.class);
-        System.out.println(userResponse);
+        Assert.assertEquals(userResponse.getName(),jobUser.getName());
+        Assert.assertEquals(userResponse.getJob(),jobUser.getJob());
     }
 }
