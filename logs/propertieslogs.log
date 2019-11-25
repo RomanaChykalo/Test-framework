@@ -1,0 +1,19 @@
+[INFO ] 2019-11-24 17:05:58.536 [main] LoginUserClient - Execute user login using UserCredential(email=eve.holt@reqres.in, password=cityslicka)
+[INFO ] 2019-11-24 17:48:39.997 [main] RegisterClient - Visit URL: https://reqres.in/api/register
+[INFO ] 2019-11-24 17:48:40.668 [main] RegisterClient - Register user using credential dfdf@reqres.in
+[INFO ] 2019-11-24 17:50:08.030 [main] RegisterClient - Visit URL: https://reqres.in/api/register
+[INFO ] 2019-11-24 17:50:08.725 [main] RegisterClient - Register user using credential: email dfdf@reqres.in, and user password: rte
+[INFO ] 2019-11-24 17:51:07.656 [main] RegisterClient - Visit URL: https://reqres.in/api/register
+[INFO ] 2019-11-24 17:51:08.403 [main] RegisterClient - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+[INFO ] 2019-11-24 17:52:02.107 [main] RegisterClient - Visit URL: https://reqres.in/api/register
+[INFO ] 2019-11-24 17:52:02.848 [main] RegisterClient - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+[INFO ] 2019-11-24 23:20:16.750 [main] UserClient - Visit URL: nullusers
+[INFO ] 2019-11-24 23:20:18.069 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-24 23:21:33.492 [main] UserClient - Visit URL: nullusers
+[INFO ] 2019-11-24 23:21:34.640 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-24 23:22:19.329 [main] UserClient - Visit URL: https://reqres.in/api/users
+[INFO ] 2019-11-24 23:22:20.411 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-24 23:26:22.615 [main] UserClient - Visit URL: https://reqres.in/api/users
+[INFO ] 2019-11-24 23:26:23.681 [main] UserClient - Create user with name: Ihor and job: sales-manager
+[INFO ] 2019-11-25 21:33:06.058 [main] UserClient - Visit URL: https://reqres.in/api/users
+[INFO ] 2019-11-25 21:33:07.760 [main] UserClient - Create user with name: Ihor and job: sales-manager
