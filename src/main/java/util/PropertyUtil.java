@@ -1,10 +1,8 @@
 package util;
 
-import client.LoginUserClient;
 import client.RegisterClient;
-import client.UserClient;
-import model.entities.UserCredential;
-import model.responses.UserRegisterResponse;
+import model.entity.UserCredential;
+import model.response.UserRegisterResponse;
 
 import javax.ws.rs.core.Response;
 import java.io.IOException;

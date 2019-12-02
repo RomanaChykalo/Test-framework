@@ -1,24 +1,25 @@
-package model.entities;
+package model.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonRootName;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-@JsonRootName(value = "data")
-public class Resource{
+public class ManyEntityResponse {
     @JsonProperty
-    private int id;
+    private int page;
     @JsonProperty
-    private String name;
+    private int per_page;
     @JsonProperty
-    private int year;
+    private int total;
     @JsonProperty
-    private String color;
-    @JsonProperty("pantone_value")
-    private String pantoneValue;
+    private int total_pages;
+    @JsonProperty(value ="data")
+    private List<? extends Object> entities;
 }

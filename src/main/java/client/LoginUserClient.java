@@ -1,7 +1,7 @@
 package client;
 
 import lombok.extern.log4j.Log4j2;
-import model.entities.UserCredential;
+import model.entity.UserCredential;
 import org.apache.cxf.jaxrs.client.WebClient;
 
 import javax.ws.rs.POST;
