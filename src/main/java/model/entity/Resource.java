@@ -19,6 +19,6 @@ public class Resource{
     private int year;
     @JsonProperty
     private String color;
-    @JsonProperty("pantone_value")
-    private String pantoneValue;
+    @JsonProperty
+    private String pantone_value;
 }

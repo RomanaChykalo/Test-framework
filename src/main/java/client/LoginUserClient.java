@@ -20,7 +20,7 @@ public class LoginUserClient extends AbstractClient {
                 .create(LOGIN_URL, providers)
                 .accept(MediaType.APPLICATION_JSON_TYPE)
                 .type(MediaType.APPLICATION_JSON_TYPE);
-        log.info("Execute user login using credential " + userCredential.getEmail(), userCredential.getPassword());
+        log.info("Execute user login using credential: " + userCredential.getEmail()+" and password: "+userCredential.getPassword());
         return client.post(userCredential);
     }
 }

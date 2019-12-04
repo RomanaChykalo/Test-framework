@@ -11,15 +11,15 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ManyEntityResponse {
+public class ManyEntityResponse<T> {
     @JsonProperty
-    private int page;
+    protected int page;
     @JsonProperty
-    private int per_page;
+    protected int per_page;
     @JsonProperty
-    private int total;
+    protected int total;
     @JsonProperty
-    private int total_pages;
-    @JsonProperty(value ="data")
-    private List<? extends Object> entities;
+    protected int total_pages;
+    @JsonProperty
+    private List<T> data;
 }

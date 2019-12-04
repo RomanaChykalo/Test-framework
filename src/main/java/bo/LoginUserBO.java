@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 public class LoginUserBO {
     private LoginUserClient loginClient = new LoginUserClient();
 
-    public UserRegisterResponse userRegister(UserCredential userCredential) {
+    public UserRegisterResponse loginUser(UserCredential userCredential) {
         Response response = loginClient.loginUser(userCredential);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
         return response.readEntity(UserRegisterResponse.class);

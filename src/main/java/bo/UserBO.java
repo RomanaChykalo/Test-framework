@@ -6,10 +6,12 @@ import model.entity.JobUser;
 import model.entity.User;
 import model.response.CreateUserResponse;
 import model.response.ManyEntityResponse;
+import model.response.ManyUsersResponse;
 import model.response.UpdateUserResponse;
 import org.testng.Assert;
 import util.ObjectMapper;
 
+import javax.rmi.CORBA.Util;
 import javax.ws.rs.core.Response;
 
 @Log4j2
@@ -22,16 +24,16 @@ public class UserBO {
         return ObjectMapper.mapToEntity(createUserResponse, CreateUserResponse.class);
     }
 
-    public ManyEntityResponse getPartOfUsers(String part_number) {
+    public ManyUsersResponse getPartOfUsers(String part_number) {
         Response response = userClient.getPartOfUsers(part_number);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        return response.readEntity(ManyEntityResponse.class);
+        return response.readEntity(ManyUsersResponse.class);
     }
 
     public User getUserById(int id) {
         Response response = userClient.getUserById(id);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        return ObjectMapper.mapToEntity(response, User.class);
+        return ObjectMapper.mapToEntity(response,User.class);
     }
 
     public int deleteUser(int id) {
