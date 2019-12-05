@@ -1,5 +1,6 @@
 package client;
 
+import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
 import model.entity.UserCredential;
 import org.apache.cxf.jaxrs.client.WebClient;
@@ -9,7 +10,7 @@ import javax.ws.rs.core.Response;
 
 import static javax.ws.rs.core.MediaType.*;
 
-@Log4j2
+@Log4j
 public class RegisterClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "register";
     private static final String REGISTER_URL = BASE_URL + ADDITIONAL_URL_PART;

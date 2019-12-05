@@ -11,8 +11,8 @@ import static util.PropertyUtil.getConfigList;
 
 public abstract class AbstractClient {
    // private static Map<String, String> configList = getConfigList();
-    protected static final String BASE_URL = EnvironmentConfig.getBaseUrlFromConfig();
-    protected List<Object> providers = new ArrayList<>();
+     static final String BASE_URL = EnvironmentConfig.getBaseUrlFromConfig();
+     List<Object> providers = new ArrayList<>();
 
     {
         providers.add(new JacksonJsonProvider());

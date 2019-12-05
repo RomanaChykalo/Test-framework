@@ -1,0 +1,132 @@
+2019-12-05 15:55:28 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:28 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-05 15:55:31 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 15:55:31 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-05 15:55:32 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 15:55:32 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-05 15:55:32 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:32 INFO  UserClient:56 - Delete user with id: 8
+2019-12-05 15:55:33 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:33 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 15:55:33 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:33 INFO  UserClient:45 - Get user with id: 888
+2019-12-05 15:55:34 INFO  ResourceClient:35 - Get all resources.....
+2019-12-05 15:55:34 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 15:55:34 INFO  ResourceClient:25 - Search resource with id:  8
+2019-12-05 15:55:34 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 15:55:34 INFO  ResourceClient:25 - Search resource with id:  1111
+2019-12-05 15:55:35 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:35 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 15:55:35 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:35 INFO  UserClient:34 - Get 1 part of users.....
+2019-12-05 15:55:36 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:36 INFO  UserClient:34 - Get 2 part of users.....
+2019-12-05 15:55:39 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 15:55:39 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
+2019-12-05 15:55:39 INFO  LoginUserBO:29 - Get error message: Missing password
+2019-12-05 15:55:39 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 15:55:39 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
+2019-12-05 15:55:40 INFO  RegisterBO:28 - Get error message: Missing password
+2019-12-05 15:55:40 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:40 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
+2019-12-05 15:55:40 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 15:55:40 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:19:36 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:36 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-05 16:19:38 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:19:38 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-05 16:19:38 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:19:39 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-05 16:19:39 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:39 INFO  UserClient:56 - Delete user with id: 8
+2019-12-05 16:19:40 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:40 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:19:40 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:40 INFO  UserClient:45 - Get user with id: 888
+2019-12-05 16:19:40 INFO  ResourceClient:35 - Get all resources.....
+2019-12-05 16:19:41 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:19:41 INFO  ResourceClient:25 - Search resource with id:  8
+2019-12-05 16:19:41 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:19:41 INFO  ResourceClient:25 - Search resource with id:  1111
+2019-12-05 16:19:41 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:41 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:19:42 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:42 INFO  UserClient:34 - Get 1 part of users.....
+2019-12-05 16:19:42 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:42 INFO  UserClient:34 - Get 2 part of users.....
+2019-12-05 16:19:47 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:19:47 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
+2019-12-05 16:19:47 INFO  LoginUserBO:29 - Get error message: Missing password
+2019-12-05 16:19:47 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:19:47 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
+2019-12-05 16:19:48 INFO  RegisterBO:28 - Get error message: Missing password
+2019-12-05 16:19:48 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:48 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
+2019-12-05 16:19:48 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:19:48 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:24 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:25 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-05 16:21:27 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:21:27 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-05 16:21:27 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:21:27 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-05 16:21:28 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:28 INFO  UserClient:56 - Delete user with id: 8
+2019-12-05 16:21:28 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:28 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:28 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:28 INFO  UserClient:45 - Get user with id: 888
+2019-12-05 16:21:29 INFO  ResourceClient:35 - Get all resources.....
+2019-12-05 16:21:29 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:21:29 INFO  ResourceClient:25 - Search resource with id:  8
+2019-12-05 16:21:29 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:21:29 INFO  ResourceClient:25 - Search resource with id:  1111
+2019-12-05 16:21:30 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:30 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:30 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:30 INFO  UserClient:34 - Get 1 part of users.....
+2019-12-05 16:21:31 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:31 INFO  UserClient:34 - Get 2 part of users.....
+2019-12-05 16:21:34 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:21:34 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
+2019-12-05 16:21:35 INFO  LoginUserBO:29 - Get error message: Missing password
+2019-12-05 16:21:35 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:21:35 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
+2019-12-05 16:21:35 INFO  RegisterBO:28 - Get error message: Missing password
+2019-12-05 16:21:35 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:35 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
+2019-12-05 16:21:36 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:36 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:47 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:48 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-05 16:21:50 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:21:50 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-05 16:21:51 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:21:51 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-05 16:21:51 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:51 INFO  UserClient:56 - Delete user with id: 8
+2019-12-05 16:21:52 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:52 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:52 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:52 INFO  UserClient:45 - Get user with id: 888
+2019-12-05 16:21:52 INFO  ResourceClient:35 - Get all resources.....
+2019-12-05 16:21:53 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:21:53 INFO  ResourceClient:25 - Search resource with id:  8
+2019-12-05 16:21:53 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-05 16:21:53 INFO  ResourceClient:25 - Search resource with id:  1111
+2019-12-05 16:21:53 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:53 INFO  UserClient:45 - Get user with id: 8
+2019-12-05 16:21:53 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:53 INFO  UserClient:34 - Get 1 part of users.....
+2019-12-05 16:21:54 INFO  UserClient:29 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:54 INFO  UserClient:34 - Get 2 part of users.....
+2019-12-05 16:21:57 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-05 16:21:57 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
+2019-12-05 16:21:57 INFO  LoginUserBO:29 - Get error message: Missing password
+2019-12-05 16:21:57 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-05 16:21:57 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
+2019-12-05 16:21:58 INFO  RegisterBO:28 - Get error message: Missing password
+2019-12-05 16:21:58 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:58 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
+2019-12-05 16:21:58 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-05 16:21:58 INFO  UserClient:45 - Get user with id: 8

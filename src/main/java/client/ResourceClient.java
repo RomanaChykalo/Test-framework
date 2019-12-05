@@ -1,5 +1,6 @@
 package client;
 
+import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
 import org.apache.cxf.jaxrs.client.WebClient;
 
@@ -8,18 +9,13 @@ import javax.ws.rs.core.Response;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
-@Log4j2
+@Log4j
 public class ResourceClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "unknown";
     private static final String RESOURCE_URL = BASE_URL + ADDITIONAL_URL_PART;
 
     @GET
     public Response getResourceById(int id) {
-       /* Client client = ClientBuilder.newClient();
-        return client.target(RESOURCE_URL)
-                .path(String.valueOf(id))
-                .request()
-                .get();*/
         log.info("Visit URL: " + RESOURCE_URL);
         WebClient client = WebClient
                 .create(RESOURCE_URL, providers)

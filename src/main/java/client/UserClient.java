@@ -1,6 +1,6 @@
 package client;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.log4j.Log4j;
 import model.entity.JobUser;
 import org.apache.cxf.jaxrs.client.WebClient;
 
@@ -9,7 +9,7 @@ import javax.ws.rs.core.Response;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
-@Log4j2
+@Log4j
 public class UserClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "users";
     private static String USERS_URL = BASE_URL + ADDITIONAL_URL_PART;
@@ -42,7 +42,7 @@ public class UserClient extends AbstractClient {
                 .type(APPLICATION_JSON_TYPE)
                 .accept(APPLICATION_JSON_TYPE)
                 .path(id);
-        log.info("Get user with id: "+id);
+        log.info("Get user with id: " + id);
         return client.get();
     }
 
@@ -53,7 +53,7 @@ public class UserClient extends AbstractClient {
                 .type(APPLICATION_JSON_TYPE)
                 .accept(APPLICATION_JSON_TYPE)
                 .path(id);
-        log.info("Delete user with id: "+id);
+        log.info("Delete user with id: " + id);
         return client.delete();
     }
 
@@ -64,7 +64,7 @@ public class UserClient extends AbstractClient {
                 .type(APPLICATION_JSON_TYPE)
                 .accept(APPLICATION_JSON_TYPE)
                 .path(id);
-        log.info("Update user with id: "+id+" with such info: "+user.getName(), user.getJob());
+        log.info("Update user with id: " + id + " with such info: " + user);
         return client.put(user);
     }
 }
