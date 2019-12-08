@@ -2,9 +2,10 @@ package integration;
 
 import bo.LoginUserBO;
 import bo.RegisterBO;
-import bo.ResourseBO;
+import bo.ResourceBO;
 import bo.UserBO;
 import io.restassured.http.ContentType;
+import listener.AllureCustomListener;
 import lombok.extern.log4j.Log4j;
 import model.entity.JobUser;
 import model.entity.Resource;
@@ -13,24 +14,23 @@ import model.entity.UserCredential;
 import model.response.*;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
 
 @Log4j
+@Listeners({AllureCustomListener.class})
 public class ClientTest {
 
     private UserBO userBO = new UserBO();
     private RegisterBO registerBO = new RegisterBO();
     private LoginUserBO loginBO = new LoginUserBO();
-    private ResourseBO resourseBO = new ResourseBO();
+    private ResourceBO resourseBO = new ResourceBO();
 
     //  Rest-Assured
     @Test
@@ -122,8 +122,8 @@ public class ClientTest {
     @Parameters(value = "userId")
     @Test
     public void deleteUserTest(int userId) {
-        int i = userBO.deleteUser(userId);
-        if (i != 0) {
+        User deleteUser = userBO.deleteUser(userId);
+        if (Objects.isNull(deleteUser)) {
             User user = userBO.getUserById(userId);
             Assert.assertNull(user, "User exist< but must be deleted");
         } else {

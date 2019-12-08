@@ -20,12 +20,12 @@ public class EnvironmentConfig {
 
    public static String getBaseUrlFromConfig() {
       String envToUse = System.getProperty("env");
-      if (envToUse.isEmpty()) {
-         throw new AutomationException("Environment name can't be empty, define -Denv option");
-      }
       if (getConfig().get(envToUse) == null) {
          throw new AutomationException("Environment is not found in existing environment list, need enter one of : " + configList.keySet());
       }
-      return configList.get(System.getProperty("env"));
+      if (envToUse.isEmpty()){
+         throw new AutomationException("Environment name can't be empty, define -Denv option");
+      }
+      return configList.get(envToUse);
    }
 }

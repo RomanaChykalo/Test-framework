@@ -14,12 +14,12 @@ import java.util.List;
 public class ManyEntityResponse<T> {
     @JsonProperty
     protected int page;
-    @JsonProperty
-    protected int per_page;
+    @JsonProperty("per_page")
+    protected int perPage;
     @JsonProperty
     protected int total;
-    @JsonProperty
-    protected int total_pages;
+    @JsonProperty("total_pages")
+    protected int totalPages;
     @JsonProperty
     private List<T> data;
 }

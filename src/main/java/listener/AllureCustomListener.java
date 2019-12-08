@@ -1,3 +1,5 @@
+package listener;
+
 import io.qameta.allure.Attachment;
 import lombok.extern.log4j.Log4j;
 import org.apache.cxf.helpers.FileUtils;
@@ -17,7 +19,6 @@ import java.util.Objects;
 import static java.lang.String.format;
 
 @Log4j
-@Listeners
 public class AllureCustomListener extends TestListenerAdapter {
     private File logFile = new File("logs/log4j-Allure.log");
 

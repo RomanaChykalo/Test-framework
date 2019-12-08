@@ -15,14 +15,14 @@ import javax.ws.rs.core.Response;
 public class LoginUserBO {
     private LoginUserClient loginClient = new LoginUserClient();
 
-    @Step("Login user with credential {0}")
+    @Step("Login user with credential {userCredential}")
     public UserRegisterResponse loginUser(UserCredential userCredential) {
         Response response = loginClient.loginUser(userCredential);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
         return response.readEntity(UserRegisterResponse.class);
     }
 
-    @Step("Login user with not full credential {0}")
+    @Step("Login user with not full credential {userCredential}")
     public MissingPasswordResponse loginUserUnsuccessful(UserCredential userCredential) {
         Response response = loginClient.loginUser(userCredential);
         Assert.assertEquals(response.getStatus(), Response.Status.BAD_REQUEST.getStatusCode(), "Response status-code is not: " + Response.Status.BAD_REQUEST);

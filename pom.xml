@@ -22,20 +22,28 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
                 <configuration>
+                    <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar"</argLine>
                     <suiteXmlFiles>
                         <suiteXmlFile>src\test\resources\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <properties>
+                    <!--<properties>
                         <property>
                             <name>usedefaultlisteners</name>
                             <value>false</value>
                         </property>
                         <property>
                             <name>listener</name>
-                            <value>AllureCustomListener</value>
+                            <value>listener.AllureCustomListener</value>
                         </property>
-                    </properties>
+                    </properties>-->
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>1.8.6</version>
+                    </dependency>
+                </dependencies>
             </plugin>
 
            <!-- <plugin>
@@ -76,10 +84,11 @@
             <artifactId>allure-testng</artifactId>
             <version>2.12.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-rs-client -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-rs-client</artifactId>
-            <version>3.0.15</version>
+            <version>3.3.4</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -159,16 +168,6 @@
             <artifactId>jackson-datatype-jdk8</artifactId>
             <version>2.9.6</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.5</version>
-        </dependency>-->
 
         <dependency>
             <groupId>log4j</groupId>

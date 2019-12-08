@@ -17,42 +17,42 @@ import javax.ws.rs.core.Response;
 public class UserBO {
     private UserClient userClient = new UserClient();
 
-    @Step("Create user with info {0}")
+    @Step("Create user with info {jobUser}")
     public CreateUserResponse createUser(JobUser jobUser) {
         Response createUserResponse = userClient.createUser(jobUser);
         Assert.assertEquals(createUserResponse.getStatus(), Response.Status.CREATED.getStatusCode(), "Response status-code is not: " + Response.Status.CREATED);
-        return ObjectMapper.mapToEntity(createUserResponse, CreateUserResponse.class);
+        return createUserResponse.readEntity(CreateUserResponse.class);
     }
 
-    @Step("Get {0} part of users.")
+    @Step("Get {part_number} part of users.")
     public ManyUsersResponse getPartOfUsers(String part_number) {
         Response response = userClient.getPartOfUsers(part_number);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
         return response.readEntity(ManyUsersResponse.class);
     }
 
-    @Step("Find user with id: {0}")
+    @Step("Find user with id: {id}")
     public User getUserById(int id) {
         Response response = userClient.getUserById(id);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        return ObjectMapper.mapToEntity(response, User.class);
+        return response.readEntity(User.class);
     }
 
-    @Step("Delete user with id: {0}")
-    public int deleteUser(int id) {
+    @Step("Delete user with id: {id}")
+    public User deleteUser(int id) {
         Response response = userClient.deleteUser(id);
         Assert.assertEquals(response.getStatus(), Response.Status.NO_CONTENT.getStatusCode(), "Response status-code is not: " + Response.Status.NO_CONTENT);
-        return 1;
+        return response.readEntity(User.class);
     }
 
-    @Step("Update user with id: {0} using info {1}")
+    @Step("Update user with id: {id} using info {user}")
     public UpdateUserResponse updateUser(int id, JobUser user) {
         Response response = userClient.updateUserPut(id, user);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
         return response.readEntity(UpdateUserResponse.class);
     }
 
-    @Step("Find user with id: {0}")
+    @Step("Find user with id: {id}")
     public User getUserByIdUnsuccessful(int id) {
         Response response = userClient.getUserById(id);
         Assert.assertEquals(response.getStatus(), Response.Status.NOT_FOUND.getStatusCode(), "Response status-code is not: " + Response.Status.NOT_FOUND);

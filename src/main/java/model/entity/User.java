@@ -17,9 +17,9 @@ public class User {
     private int id;
     @JsonProperty
     private String email;
-    @JsonProperty
+    @JsonProperty("firstName")
     private String first_name;
-    @JsonProperty
+    @JsonProperty("lastName")
     private String last_name;
     @JsonProperty
     private String avatar;
