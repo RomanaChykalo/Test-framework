@@ -1,0 +1,13 @@
+2019-12-14 19:07:57 INFO  UserClient:51 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@2834ffb5
+2019-12-14 19:07:57 ERROR AllureCustomListener:48 - result : FAILURE DELETEUSERTEST
+2019-12-14 19:07:57 INFO  AllureCustomListener:49 - TestNG-test=TestNgParametersTest-2: Test failed: deleteUserTest
+2019-12-14 19:07:58 INFO  UserClient:25 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@4baa1c2f
+2019-12-14 19:07:58 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 19:07:58 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-14 19:07:58 INFO  ResourceClient:37 - Get all resources.....
+2019-12-14 19:07:58 INFO  RegisterClient:27 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@37c39aa0
+2019-12-14 19:07:58 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-14 19:07:58 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-14 19:07:58 INFO  ResourceClient:25 - Search resource with id:  8
+2019-12-14 19:07:58 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-14 19:07:58 INFO  LoginUserClient:26 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@13eb4592

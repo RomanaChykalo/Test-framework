@@ -1,7 +1,7 @@
 package model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import org.codehaus.jackson.annotate.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

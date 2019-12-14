@@ -1,0 +1,11 @@
+2019-12-14 19:07:51 INFO  AllureCustomListener:22 - -------=======  Test "Sat Dec 14 19:07:51 EET 2019" started =======-------
+2019-12-14 19:07:52 INFO  UserClient:57 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:53 INFO  UserClient:44 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:53 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:54 INFO  UserClient:49 - Get user with id: 888
+2019-12-14 19:07:54 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 19:07:54 INFO  UserClient:62 - Delete user with id: 8
+2019-12-14 19:07:57 INFO  UserClient:64 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@782f33f5
+2019-12-14 19:07:57 INFO  UserClient:51 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@500cfa41
+2019-12-14 19:07:57 INFO  UserClient:44 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:57 INFO  UserClient:49 - Get user with id: 8

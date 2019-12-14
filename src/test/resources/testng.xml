@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TestNgParametersSuite" parallel="true" thread-count="3">
+<suite name="TestNgParametersSuite" parallel="false" thread-count="3">
     <parameter name="userId" value="8"></parameter>
     <test name="TestNgParametersTest">
         <classes>

@@ -1,0 +1,9 @@
+2019-12-14 16:06:26 INFO  AllureCustomListener:22 - -------=======  Test "Sat Dec 14 16:06:26 EET 2019" started =======-------
+2019-12-14 16:06:26 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 16:06:26 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 16:06:26 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-14 16:06:28 INFO  UserClient:56 - Delete user with id: 8
+2019-12-14 16:06:28 INFO  UserClient:45 - Get user with id: 888
+2019-12-14 16:06:28 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 16:06:31 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 16:06:31 INFO  UserClient:45 - Get user with id: 8

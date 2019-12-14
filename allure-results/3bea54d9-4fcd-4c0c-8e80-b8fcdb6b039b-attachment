@@ -1,0 +1,21 @@
+2019-12-14 22:13:39 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 22:13:39 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 22:13:39 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=130, createdAt=2019-12-14T20:13:31.016Z)
+2019-12-14 22:13:39 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 22:13:39 INFO  RegisterClient:25 - Register user using credential: email megogo@reqres.in, and user password: pistol
+2019-12-14 22:13:39 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 22:13:39 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest
+2019-12-14 22:13:39 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 22:13:39 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 22:13:40 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=136, createdAt=2019-12-14T20:13:31.575Z)
+2019-12-14 22:13:40 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 22:13:40 INFO  RegisterClient:25 - Register user using credential: email olisia@reqres.in, and user password: humana
+2019-12-14 22:13:40 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 22:13:40 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest
+2019-12-14 22:13:40 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 22:13:40 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 22:13:40 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=154, createdAt=2019-12-14T20:13:32.088Z)
+2019-12-14 22:13:40 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 22:13:40 INFO  RegisterClient:25 - Register user using credential: email rasmus@reqres.in, and user password: humana
+2019-12-14 22:13:40 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 22:13:40 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest

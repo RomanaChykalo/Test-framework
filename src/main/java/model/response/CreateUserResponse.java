@@ -1,8 +1,9 @@
 package model.response;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import org.codehaus.jackson.annotate.JsonProperty;/*
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import jdk.nashorn.internal.ir.annotations.Ignore;*/
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,7 +20,7 @@ public class CreateUserResponse {
     private String job;
     @JsonProperty
     private String id;
-    @JsonDeserialize(using = LocalDateDeserializer.class)
+   /* @JsonDeserialize(using = LocalDateDeserializer.class)*/
     @JsonProperty
-    private LocalDate createdAt;
+    private String createdAt;
 }

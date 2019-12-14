@@ -1,0 +1,7 @@
+2019-12-14 16:06:31 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
+2019-12-14 16:06:31 INFO  ResourceClient:25 - Search resource with id:  1111
+2019-12-14 16:06:32 INFO  RegisterClient:27 - {"id":4,"token":"QpwL5tke4Pnpja7X4"}
+2019-12-14 16:06:32 ERROR AllureCustomListener:48 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 16:06:32 INFO  AllureCustomListener:49 - TestNG-test=TestNgParametersTest-1: Test failed: createUserRegisterAndLoginTest
+2019-12-14 16:06:32 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 16:06:32 INFO  UserClient:45 - Get user with id: 8

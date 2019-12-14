@@ -1,0 +1,5 @@
+2019-12-14 14:55:23 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 14:55:23 INFO  UserClient:45 - Get user with id: 8
+2019-12-14 14:55:23 ERROR AllureCustomListener:47 - result : FAILURE UPDATEUSERTEST
+2019-12-14 14:55:23 INFO  AllureCustomListener:48 - TestNG-test=TestNgParametersTest-2: Test failed: updateUserTest
+2019-12-14 14:55:23 INFO  AllureCustomListener:57 - Start read logs...........

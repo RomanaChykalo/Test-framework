@@ -1,0 +1,29 @@
+2019-12-14 21:21:01 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 21:21:01 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 21:21:01 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=742, createdAt=2019-12-14T19:20:53.137Z)
+2019-12-14 21:21:01 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 21:21:01 INFO  RegisterClient:25 - Register user using credential: email megogo@reqres.in, and user password: pistol
+2019-12-14 21:21:01 ERROR AllureCustomListener:59 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 21:21:01 INFO  AllureCustomListener:60 - main: Test failed: createUserRegisterAndLoginTest
+2019-12-14 21:21:01 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 21:21:01 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 21:21:02 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=180, createdAt=2019-12-14T19:20:53.712Z)
+2019-12-14 21:21:02 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 21:21:02 INFO  RegisterClient:25 - Register user using credential: email olisia@reqres.in, and user password: humana
+2019-12-14 21:21:02 ERROR AllureCustomListener:59 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 21:21:02 INFO  AllureCustomListener:60 - main: Test failed: createUserRegisterAndLoginTest
+2019-12-14 21:21:02 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-14 21:21:02 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-14 21:21:02 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=741, createdAt=2019-12-14T19:20:54.110Z)
+2019-12-14 21:21:02 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-14 21:21:02 INFO  RegisterClient:25 - Register user using credential: email rasmus@reqres.in, and user password: humana
+2019-12-14 21:21:02 ERROR AllureCustomListener:59 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
+2019-12-14 21:21:02 INFO  AllureCustomListener:60 - main: Test failed: createUserRegisterAndLoginTest
+2019-12-14 21:21:02 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-14 21:21:02 INFO  UserClient:56 - Delete user with id: 8
+2019-12-14 21:21:02 INFO  UserBO:52 - Get response body:  
+2019-12-14 21:21:02 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 21:21:02 INFO  UserClient:45 - Get user with id: 8
+2019-12-14 21:21:03 INFO  UserBO:42 - Get response body:  UserRS(data=User(id=8, email=lindsay.ferguson@reqres.in, firstName=Lindsay, lastName=Ferguson, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg))
+2019-12-14 21:21:03 ERROR AllureCustomListener:59 - result : FAILURE DELETEUSERTEST
+2019-12-14 21:21:03 INFO  AllureCustomListener:60 - main: Test failed: deleteUserTest

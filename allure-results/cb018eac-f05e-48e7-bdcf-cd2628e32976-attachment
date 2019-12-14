@@ -1,0 +1,8 @@
+2019-12-14 19:07:58 INFO  UserClient:51 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@7ba90ba8
+2019-12-14 19:07:58 INFO  UserClient:31 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:58 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-14 19:07:58 INFO  UserClient:36 - Get 1 part of users.....
+2019-12-14 19:07:58 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
+2019-12-14 19:07:59 INFO  UserClient:38 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@6bcfd057
+2019-12-14 19:07:59 INFO  LoginUserClient:26 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@7b68db6b
+2019-12-14 19:07:59 INFO  LoginUserBO:29 - Get error message: Missing password

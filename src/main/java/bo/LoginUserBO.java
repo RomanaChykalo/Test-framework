@@ -19,7 +19,9 @@ public class LoginUserBO {
     public UserRegisterResponse loginUser(UserCredential userCredential) {
         Response response = loginClient.loginUser(userCredential);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        return response.readEntity(UserRegisterResponse.class);
+        UserRegisterResponse userRegisterResponse = response.readEntity(UserRegisterResponse.class);
+        log.info("Get response:  "+userRegisterResponse);
+        return userRegisterResponse;
     }
 
     @Step("Login user with not full credential {userCredential}")
@@ -27,6 +29,8 @@ public class LoginUserBO {
         Response response = loginClient.loginUser(userCredential);
         Assert.assertEquals(response.getStatus(), Response.Status.BAD_REQUEST.getStatusCode(), "Response status-code is not: " + Response.Status.BAD_REQUEST);
         log.info("Get error message: " + response.readEntity(MissingPasswordResponse.class).getError());
-        return response.readEntity(MissingPasswordResponse.class);
+        MissingPasswordResponse registerResponse = response.readEntity(MissingPasswordResponse.class);
+        log.info("Get response:  "+registerResponse);
+        return registerResponse;
     }
 }

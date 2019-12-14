@@ -1,0 +1,16 @@
+2019-12-14 20:33:40 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-14 20:33:40 INFO  UserClient:67 - Update user with id: 2 with such info: JobUser(name=Volodia, job=developer)
+2019-12-14 20:33:40 INFO  UserBO:61 - Get response body:  UpdateUserResponse(name=Volodia, job=developer, updatedAt=2019-12-14T18:33:32.366Z)
+2019-12-14 20:33:40 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 20:33:40 INFO  UserClient:45 - Get user with id: 2
+2019-12-14 20:33:41 INFO  UserBO:42 - Get response body:  UserRS(data=User(id=2, email=janet.weaver@reqres.in, firstName=Janet, lastName=Weaver, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg))
+2019-12-14 20:33:41 ERROR AllureCustomListener:55 - result : FAILURE UPDATEUSER
+2019-12-14 20:33:41 INFO  AllureCustomListener:56 - main: Test failed: updateUser
+2019-12-14 20:33:41 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
+2019-12-14 20:33:41 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
+2019-12-14 20:33:41 INFO  UserBO:61 - Get response body:  UpdateUserResponse(name=Volodia, job=developer, updatedAt=2019-12-14T18:33:32.946Z)
+2019-12-14 20:33:41 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 20:33:41 INFO  UserClient:45 - Get user with id: 8
+2019-12-14 20:33:41 INFO  UserBO:42 - Get response body:  UserRS(data=User(id=8, email=lindsay.ferguson@reqres.in, firstName=Lindsay, lastName=Ferguson, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg))
+2019-12-14 20:33:41 ERROR AllureCustomListener:55 - result : FAILURE UPDATEUSERTEST
+2019-12-14 20:33:41 INFO  AllureCustomListener:56 - main: Test failed: updateUserTest

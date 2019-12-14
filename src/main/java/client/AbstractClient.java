@@ -1,5 +1,6 @@
 package client;
 
+/*import org.codehaus.jackson.jaxrs.JacksonJsonProvider;*/
 import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
 import util.EnvironmentConfig;
 

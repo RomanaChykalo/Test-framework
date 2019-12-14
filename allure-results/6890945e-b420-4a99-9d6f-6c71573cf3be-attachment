@@ -1,0 +1,4 @@
+2019-12-14 19:07:59 INFO  UserClient:70 - Visit URL: https://reqres.in/api/users
+2019-12-14 19:07:59 INFO  RegisterClient:27 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@5c599ad0
+2019-12-14 19:07:59 INFO  UserClient:75 - Update user with id: 2 with such info: JobUser(name=Volodia, job=developer)
+2019-12-14 19:07:59 INFO  RegisterBO:28 - Get error message: Missing password

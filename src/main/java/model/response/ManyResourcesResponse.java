@@ -1,18 +1,16 @@
 package model.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+import org.codehaus.jackson.annotate.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import model.entity.Resource;
-import model.entity.User;
 
 import java.util.List;
-
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ManyResourcesResponse extends ManyEntityResponse<Resource> {
-    @JsonProperty("data")
+    @JsonProperty
     private List<Resource> data = null;
 }

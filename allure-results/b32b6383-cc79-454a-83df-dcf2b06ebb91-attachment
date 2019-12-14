@@ -1,0 +1,6 @@
+2019-12-14 15:12:55 INFO  UserClient:51 - Visit URL: https://reqres.in/api/users
+2019-12-14 15:12:55 INFO  UserClient:56 - Delete user with id: 8
+2019-12-14 15:12:55 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
+2019-12-14 15:12:55 INFO  UserClient:45 - Get user with id: 8
+2019-12-14 15:12:55 ERROR AllureCustomListener:47 - result : FAILURE DELETEUSERTEST
+2019-12-14 15:12:55 INFO  AllureCustomListener:48 - main: Test failed: deleteUserTest
