@@ -1,0 +1,8 @@
+2019-12-31 10:03:03 INFO  UserClient:66 - Visit URL: https://reqres.in/api/users
+2019-12-31 10:03:03 INFO  UserClient:71 - Update user with id: 2 with such info: JobUser(name=Volodia, job=developer)
+2019-12-31 10:03:03 INFO  UserBO:61 - Get response body:  UpdateUserResponse(name=Volodia, job=developer, updatedAt=2019-12-31T08:03:04.216Z)
+2019-12-31 10:03:03 INFO  UserClient:44 - Visit URL: https://reqres.in/api/users
+2019-12-31 10:03:03 INFO  UserClient:49 - Get user with id: 2
+2019-12-31 10:03:03 INFO  UserBO:42 - Get response body:  UserRS(data=User(id=2, email=janet.weaver@reqres.in, firstName=Janet, lastName=Weaver, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg))
+2019-12-31 10:03:03 ERROR AllureCustomListener:64 - result : FAILURE UPDATEUSER
+2019-12-31 10:03:03 INFO  AllureCustomListener:65 - main: Test failed: updateUser

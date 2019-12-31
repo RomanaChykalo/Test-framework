@@ -1,21 +1,19 @@
 package client;
 
-import lombok.extern.log4j.Log4j;
-import lombok.extern.log4j.Log4j2;
-import model.entity.UserCredential;
-import org.apache.cxf.jaxrs.client.WebClient;
-
 import javax.ws.rs.POST;
 import javax.ws.rs.core.Response;
 
+import java.util.logging.Logger;
+
 import static javax.ws.rs.core.MediaType.*;
 
-@Log4j
+/*@Log4j
 public class RegisterClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "register";
     private static final String REGISTER_URL = BASE_URL + ADDITIONAL_URL_PART;
 
     @POST
+    @Interceptors(LoggingIntercept.class)
     public Response registerUser(UserCredential userCredential) {
         log.info("Visit URL: " + REGISTER_URL);
         WebClient client = WebClient
@@ -25,4 +23,4 @@ public class RegisterClient extends AbstractClient {
         log.info("Register user using credential: email " + userCredential.getEmail() + ", and user password: " + userCredential.getPassword());
         return client.post(userCredential);
     }
-}
+}*/

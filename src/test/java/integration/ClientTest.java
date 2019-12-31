@@ -1,9 +1,9 @@
 package integration;
 
 import bo.LoginUserBO;
-import bo.RegisterBO;
+/*import bo.RegisterBO;
 import bo.ResourceBO;
-import bo.UserBO;
+import bo.UserBO;*/
 import io.restassured.http.ContentType;
 import listener.AllureCustomListener;
 import lombok.extern.log4j.Log4j;
@@ -29,7 +29,7 @@ import static io.restassured.RestAssured.given;
 @Log4j
 @Listeners({AllureCustomListener.class})
 public class ClientTest {
-
+/*
     private static final String CSV_FILE_PATH = "src/test/resources/user_cred.csv";
     private static final String EMPTY_SPACE = "";
     private UserBO userBO = new UserBO();
@@ -190,5 +190,12 @@ public class ClientTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
+
+@Test
+    void loginTest(){
+    LoginUserBO loginUserBO = new LoginUserBO();
+    UserCredential userCredential=new UserCredential("eve.holt@reqres.in", "cityslicka");
+    loginUserBO.loginUser(userCredential);
+}
 }

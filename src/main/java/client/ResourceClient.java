@@ -9,6 +9,7 @@ import javax.ws.rs.core.Response;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
+/*
 @Log4j
 public class ResourceClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "unknown";
@@ -36,3 +37,4 @@ public class ResourceClient extends AbstractClient {
         return client.get();
     }
 }
+*/

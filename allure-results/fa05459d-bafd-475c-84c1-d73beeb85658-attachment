@@ -1,0 +1,10 @@
+2019-12-30 21:47:25 INFO  AllureCustomListener:45 - -------=======  Test "Mon Dec 30 21:47:25 EET 2019" started =======-------
+2019-12-30 21:47:26 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
+2019-12-30 21:47:27 INFO  UserClient:23 - Create user with name: Olga and job: accountant
+2019-12-30 21:47:31 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=877, createdAt=2019-12-30T19:47:31.403Z)
+2019-12-30 21:47:31 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
+2019-12-30 21:47:31 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
+2019-12-30 21:47:31 INFO  RegisterBO:23 - Get response:  UserRegisterResponse(id=4, token=QpwL5tke4Pnpja7X4)
+2019-12-30 21:47:31 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
+2019-12-30 21:47:31 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol
+2019-12-30 21:47:32 INFO  LoginUserBO:23 - Get response:  UserRegisterResponse(id=0, token=QpwL5tke4Pnpja7X4)

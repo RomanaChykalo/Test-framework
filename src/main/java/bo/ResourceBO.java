@@ -1,5 +1,6 @@
 package bo;
 
+/*
 import client.ResourceClient;
 import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j;
@@ -39,3 +40,4 @@ public class ResourceBO {
         return resource;
     }
 }
+*/

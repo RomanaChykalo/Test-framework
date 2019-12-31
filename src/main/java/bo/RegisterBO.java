@@ -1,6 +1,5 @@
 package bo;
 
-import client.RegisterClient;
 import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
@@ -11,7 +10,7 @@ import org.testng.Assert;
 
 import javax.ws.rs.core.Response;
 
-@Log4j
+/*@Log4j
 public class RegisterBO {
     private RegisterClient registerClient = new RegisterClient();
 
@@ -32,4 +31,4 @@ public class RegisterBO {
         log.info("Get response:  "+missingPasswordResponse);
         return missingPasswordResponse;
     }
-}
+}*/

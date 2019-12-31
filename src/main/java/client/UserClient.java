@@ -9,6 +9,7 @@ import javax.ws.rs.core.Response;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON_TYPE;
 
+/*
 @Log4j
 public class UserClient extends AbstractClient {
     private static final String ADDITIONAL_URL_PART = "users";
@@ -68,3 +69,4 @@ public class UserClient extends AbstractClient {
         return client.put(user);
     }
 }
+*/
