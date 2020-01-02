@@ -1,6 +1,5 @@
 package bo;
 
-/*
 import client.UserClient;
 import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j;
@@ -13,6 +12,7 @@ import model.response.UserRS;
 import org.testng.Assert;
 
 import javax.ws.rs.core.Response;
+
 @Log4j
 public class UserBO {
     private UserClient userClient = new UserClient();
@@ -21,27 +21,21 @@ public class UserBO {
     public CreateUserResponse createUser(JobUser jobUser) {
         Response createUserResponse = userClient.createUser(jobUser);
         Assert.assertEquals(createUserResponse.getStatus(), Response.Status.CREATED.getStatusCode(), "Response status-code is not: " + Response.Status.CREATED);
-        CreateUserResponse userResponse = createUserResponse.readEntity(CreateUserResponse.class);
-        log.info("Get response body:  "+userResponse);
-        return userResponse;
+        return createUserResponse.readEntity(CreateUserResponse.class);
     }
 
     @Step("Get {part_number} part of users.")
     public ManyUsersResponse getPartOfUsers(String part_number) {
         Response response = userClient.getPartOfUsers(part_number);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        ManyUsersResponse manyUsersResponse = response.readEntity(ManyUsersResponse.class);
-        log.info("Get response body:  "+manyUsersResponse);
-        return manyUsersResponse;
+        return response.readEntity(ManyUsersResponse.class);
     }
 
     @Step("Find user with id: {id}")
     public UserRS getUserById(int id) {
         Response response = userClient.getUserById(id);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        UserRS userRS = response.readEntity(UserRS.class);
-        log.info("Get response body:  "+userRS);
-        return userRS;
+        return response.readEntity(UserRS.class);
     }
 
     @Step("Delete user with id: {id}")
@@ -49,27 +43,20 @@ public class UserBO {
         Response response = userClient.deleteUser(id);
         Assert.assertEquals(response.getStatus(), Response.Status.NO_CONTENT.getStatusCode(), "Response status-code is not: " + Response.Status.NO_CONTENT);
         Assert.assertTrue(response.hasEntity());
-        String entity = response.readEntity(String.class);
-        log.info("Get response body:  "+entity);
-        return entity;
+        return response.readEntity(String.class);
     }
 
     @Step("Update user with id: {id} using info {user}")
     public UpdateUserResponse updateUser(int id, JobUser user) {
         Response response = userClient.updateUserPut(id, user);
         Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
-        UpdateUserResponse updateUserResponse = response.readEntity(UpdateUserResponse.class);
-        log.info("Get response body:  "+updateUserResponse);
-        return updateUserResponse;
+        return response.readEntity(UpdateUserResponse.class);
     }
 
     @Step("Find user with id: {id}")
     public User getUserByIdUnsuccessful(int id) {
         Response response = userClient.getUserById(id);
         Assert.assertEquals(response.getStatus(), Response.Status.NOT_FOUND.getStatusCode(), "Response status-code is not: " + Response.Status.NOT_FOUND);
-        User user = response.readEntity(UserRS.class).getData();
-        log.info("Get response body:  "+user);
-        return user;
+        return response.readEntity(UserRS.class).getData();
     }
 }
-*/

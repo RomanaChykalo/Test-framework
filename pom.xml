@@ -195,11 +195,6 @@
             <version>3.3.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.15</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -208,10 +203,4 @@
         </dependency>
 
     </dependencies>
-    <!--   <properties>
-           <exec.mainClass>PropertyUtil</exec.mainClass>
-           <aspectj.version>1.8.10</aspectj.version>
-       </properties>-->
-
-
-</project>
+  </project>

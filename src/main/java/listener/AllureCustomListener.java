@@ -18,7 +18,7 @@ public class AllureCustomListener extends TestListenerAdapter {
     private static final String CSV_FILE_PATH = "src/test/resources/user_cred.csv";
     private static final String LOG_FILE = "logs/log4j-Allure.log";
 
-    @Attachment(value = "CSV Attachment", type = "text/csv")
+    /*@Attachment(value = "CSV Attachment", type = "text/csv")
     private static byte[] attachFileType_CSV() {
         try {
             return fileToBytes(CSV_FILE_PATH);
@@ -28,7 +28,7 @@ public class AllureCustomListener extends TestListenerAdapter {
         return null;
     }
 
-    /*To Convert the File to Bytes*/
+    *//*To Convert the File to Bytes*//*
     private static byte[] fileToBytes(String fileName) throws Exception {
         byte[] logText = null;
         try {
@@ -104,5 +104,5 @@ public class AllureCustomListener extends TestListenerAdapter {
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
         log.info(" Test Failed But Within Success Percentage for " + result.getMethod().getMethodName());
-    }
+    }*/
 }

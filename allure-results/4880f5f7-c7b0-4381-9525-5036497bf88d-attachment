@@ -1,0 +1,2 @@
+2020-01-02 21:33:04 INFO  AllureCustomListener:45 - -------=======  Test "Thu Jan 02 21:33:04 EET 2020" started =======-------
+2020-01-02 21:33:14 INFO  LoginUserBO:23 - Get response:  UserRegisterResponse(id=0, token=QpwL5tke4Pnpja7X4)
