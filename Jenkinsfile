@@ -15,10 +15,8 @@ pipeline {
         }
   }
   post {
-     failure {
-        mail to: 'romo4kachukalo@gmail.com',
-        subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",
-        body: "Error in ${env.BUILD_URL}"
+     always {
+        sh 'allure serve allure-results'
      }
 }
 }
