@@ -32,9 +32,9 @@ public class UserBO {
     }
 
     @Step("Find user with id: {id}")
-    public UserRS getUserById(int id) {
+    public UserRS getUserById(int id, Response.Status code) {
         Response response = userClient.getUserById(id);
-        Assert.assertEquals(response.getStatus(), Response.Status.OK.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
+        Assert.assertEquals(response.getStatus(), code.getStatusCode(), "Response status-code is not: " + Response.Status.OK);
         return response.readEntity(UserRS.class);
     }
 
