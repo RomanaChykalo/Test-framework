@@ -4,7 +4,9 @@ pipeline {
 
     stage('Testing stage') {
       steps {
-        sh 'mvn clean test'
+      def env_name=env_prod
+      echo 'Running ${env_name}.....'
+        sh 'mvn clean test -Denv=env_prod'
       }
     }
 
