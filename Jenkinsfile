@@ -9,16 +9,15 @@ pipeline {
                   sh 'mvn clean test -Denv=env_prod'
                   }
     }
-    post {
-            failure {
-                mail to: romo4kachukalo@gmail.com, subject: 'The Pipeline failed :('
-            }
-        }
-
     stage('Deployment stage') {
           steps {
             sh 'mvn deploy'
           }
         }
   }
+  post {
+              failure {
+                  mailUser('<romo4kachukalo@gmail.com>',"The Pipeline failed")
+              }
+          }
 }
