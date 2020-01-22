@@ -16,7 +16,7 @@ pipeline {
   }
   post {
      always {
-        sh 'allure serve allure-results'
+         allure report: 'allure_reports', results: [[path: 'allure-results']]
      }
 }
 }
