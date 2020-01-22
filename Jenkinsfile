@@ -1,10 +1,17 @@
 pipeline {
   agent any
   stages {
-    stage('Stage 1') {
+
+    stage('Testing stage') {
       steps {
-        echo 'Hello world!'
+        sh 'mvn clean test'
       }
     }
+
+    stage('Deployment stage') {
+          steps {
+            sh 'mvn deploy'
+          }
+        }
   }
 }
