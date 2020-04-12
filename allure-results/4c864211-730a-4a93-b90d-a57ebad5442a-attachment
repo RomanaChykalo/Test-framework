@@ -1,3 +1,0 @@
-2019-12-14 19:13:13 INFO  ResourceClient:19 - Visit URL: https://reqres.in/api/unknown
-2019-12-14 19:13:13 INFO  ResourceClient:25 - Search resource with id:  1111
-2019-12-14 19:13:14 INFO  ResourceClient:27 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@1be52861

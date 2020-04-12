@@ -1,1 +1,0 @@
-{"uuid":"05283466-5de2-4ad9-9db6-163bd38e9ea1","name":"Default Suite","children":["7931c3e0-af50-406e-94c5-363be73319a8"],"befores":[{"name":"writeDataProviderInfoToCSV","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1576349319558,"stop":1576349319597}],"afters":[],"links":[],"start":1576349319480,"stop":1576349325781}

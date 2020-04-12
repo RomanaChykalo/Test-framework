@@ -1,4 +1,0 @@
-2019-12-14 19:11:44 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
-2019-12-14 19:11:44 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
-2019-12-14 19:11:44 INFO  RegisterClient:27 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@1b30b6f8
-2019-12-14 19:11:44 INFO  RegisterBO:28 - Get error message: Missing password

@@ -1,4 +1,0 @@
-2020-01-02 21:59:53 INFO  UserClient:65 - Update user with id: 2 with such info: JobUser(name=Volodia, job=developer)
-2020-01-02 21:59:53 INFO  UserClient:45 - Get user with id: 2
-2020-01-02 21:59:53 ERROR AllureCustomListener:64 - result : FAILURE UPDATEUSER
-2020-01-02 21:59:53 INFO  AllureCustomListener:65 - main: Test failed: updateUser

@@ -1,3 +1,0 @@
-2020-01-02 21:59:46 INFO  UserClient:45 - Get user with id: 8
-2020-01-02 21:59:46 ERROR AllureCustomListener:64 - result : FAILURE GETUSERANDPARTOFUSERSTEST
-2020-01-02 21:59:46 INFO  AllureCustomListener:65 - main: Test failed: getUserAndPartOfUsersTest

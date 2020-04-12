@@ -1,5 +1,0 @@
-2019-12-14 19:13:19 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
-2019-12-14 19:13:19 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
-2019-12-14 19:13:19 INFO  LoginUserClient:26 - Get response:  {"error":"Missing password"}
-2019-12-14 19:13:19 ERROR AllureCustomListener:48 - result : FAILURE LOGINUSERUNSUCCESSFULTEST
-2019-12-14 19:13:19 INFO  AllureCustomListener:49 - main: Test failed: loginUserUnsuccessfulTest

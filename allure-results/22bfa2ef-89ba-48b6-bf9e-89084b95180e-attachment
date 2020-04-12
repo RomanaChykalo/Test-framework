@@ -1,3 +1,0 @@
-2019-12-14 19:17:25 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
-2019-12-14 19:17:25 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
-2019-12-14 19:17:26 INFO  LoginUserBO:31 - Get error message: Missing password

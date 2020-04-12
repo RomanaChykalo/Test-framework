@@ -1,3 +1,0 @@
-2020-01-02 21:34:18 INFO  AllureCustomListener:45 - -------=======  Test "Thu Jan 02 21:34:18 EET 2020" started =======-------
-2020-01-02 21:34:20 ERROR AllureCustomListener:64 - result : FAILURE LOGINTEST
-2020-01-02 21:34:20 INFO  AllureCustomListener:65 - main: Test failed: loginTest

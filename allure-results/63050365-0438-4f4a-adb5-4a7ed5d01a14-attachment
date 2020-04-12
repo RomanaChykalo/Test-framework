@@ -1,4 +1,0 @@
-2020-01-02 21:59:44 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
-2020-01-02 21:59:44 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest
-2020-01-02 21:59:44 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
-2020-01-02 21:59:44 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest

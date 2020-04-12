@@ -1,9 +1,0 @@
-2019-12-14 19:13:19 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
-2019-12-14 19:13:19 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
-2019-12-14 19:13:19 INFO  LoginUserClient:26 - Get response:  {"error":"Missing password"}
-2019-12-14 19:13:19 ERROR AllureCustomListener:48 - result : FAILURE LOGINUSERUNSUCCESSFULTEST
-2019-12-14 19:13:19 INFO  AllureCustomListener:49 - main: Test failed: loginUserUnsuccessfulTest
-2019-12-14 19:13:19 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
-2019-12-14 19:13:19 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
-2019-12-14 19:13:20 INFO  RegisterClient:27 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@74e175c7
-2019-12-14 19:13:20 INFO  RegisterBO:28 - Get error message: Missing password

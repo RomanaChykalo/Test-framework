@@ -1,4 +1,0 @@
-2019-12-14 19:11:44 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
-2019-12-14 19:11:44 INFO  LoginUserClient:24 - Execute user login using credential: Olga@gmail.com and password: null
-2019-12-14 19:11:44 INFO  LoginUserClient:26 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@435a2c7d
-2019-12-14 19:11:44 INFO  LoginUserBO:29 - Get error message: Missing password

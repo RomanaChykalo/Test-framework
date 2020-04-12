@@ -1,8 +1,0 @@
-2019-12-14 19:17:26 INFO  UserClient:70 - Visit URL: https://reqres.in/api/users
-2019-12-14 19:17:26 INFO  UserClient:75 - Update user with id: 2 with such info: JobUser(name=Volodia, job=developer)
-2019-12-14 19:17:26 INFO  UserClient:77 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@445f6f73
-2019-12-14 19:17:26 INFO  UserClient:44 - Visit URL: https://reqres.in/api/users
-2019-12-14 19:17:26 INFO  UserClient:49 - Get user with id: 2
-2019-12-14 19:17:26 INFO  UserClient:51 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@524dd373
-2019-12-14 19:17:26 ERROR AllureCustomListener:48 - result : FAILURE UPDATEUSER
-2019-12-14 19:17:26 INFO  AllureCustomListener:49 - main: Test failed: updateUser

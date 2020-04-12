@@ -1,4 +1,0 @@
-2019-12-14 21:20:35 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
-2019-12-14 21:20:35 INFO  RegisterClient:25 - Register user using credential: email Olga@gmail.com, and user password: null
-2019-12-14 21:20:36 INFO  RegisterBO:30 - Get error message: Missing password
-2019-12-14 21:20:36 INFO  RegisterBO:32 - Get response:  MissingPasswordResponse(error=Missing password)

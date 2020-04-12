@@ -1,7 +1,0 @@
-2019-12-14 16:23:02 INFO  AllureCustomListener:22 - -------=======  Test "Sat Dec 14 16:23:02 EET 2019" started =======-------
-2019-12-14 16:23:02 INFO  UserClient:19 - Visit URL: https://reqres.in/api/users
-2019-12-14 16:23:04 INFO  UserClient:23 - Create user with name: Olga and job: accountant
-2019-12-14 16:23:07 INFO  RegisterClient:20 - Visit URL: https://reqres.in/api/register
-2019-12-14 16:23:07 INFO  RegisterClient:25 - Register user using credential: email eve.holt@reqres.in, and user password: pistol
-2019-12-14 16:23:08 INFO  LoginUserClient:19 - Visit URL: https://reqres.in/api/login
-2019-12-14 16:23:08 INFO  LoginUserClient:24 - Execute user login using credential: eve.holt@reqres.in and password: pistol

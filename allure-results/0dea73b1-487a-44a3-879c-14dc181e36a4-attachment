@@ -1,9 +1,0 @@
-2019-12-14 16:06:32 INFO  UserClient:62 - Visit URL: https://reqres.in/api/users
-2019-12-14 16:06:32 INFO  UserClient:67 - Update user with id: 8 with such info: JobUser(name=Volodia, job=developer)
-2019-12-14 16:06:33 INFO  RegisterClient:27 - {"error":"Missing password"}
-2019-12-14 16:06:33 ERROR AllureCustomListener:48 - result : FAILURE REGISTERUSERUNSUCCESSFULTEST
-2019-12-14 16:06:33 INFO  AllureCustomListener:49 - TestNG-test=TestNgParametersTest-3: Test failed: registerUserUnsuccessfulTest
-2019-12-14 16:06:33 INFO  UserClient:40 - Visit URL: https://reqres.in/api/users
-2019-12-14 16:06:33 INFO  UserClient:45 - Get user with id: 8
-2019-12-14 16:06:33 ERROR AllureCustomListener:48 - result : FAILURE UPDATEUSERTEST
-2019-12-14 16:06:33 INFO  AllureCustomListener:49 - TestNG-test=TestNgParametersTest-1: Test failed: updateUserTest

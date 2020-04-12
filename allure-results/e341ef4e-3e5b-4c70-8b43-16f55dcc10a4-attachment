@@ -1,9 +1,0 @@
-2019-12-14 19:17:20 INFO  UserClient:44 - Visit URL: https://reqres.in/api/users
-2019-12-14 19:17:20 INFO  UserClient:49 - Get user with id: 8
-2019-12-14 19:17:20 INFO  UserClient:51 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@4c24f3a2
-2019-12-14 19:17:20 INFO  UserClient:31 - Visit URL: https://reqres.in/api/users
-2019-12-14 19:17:20 INFO  UserClient:36 - Get 1 part of users.....
-2019-12-14 19:17:20 INFO  UserClient:38 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@6befbb12
-2019-12-14 19:17:20 INFO  UserClient:31 - Visit URL: https://reqres.in/api/users
-2019-12-14 19:17:20 INFO  UserClient:36 - Get 2 part of users.....
-2019-12-14 19:17:20 INFO  UserClient:38 - Get response:  org.apache.cxf.jaxrs.impl.ResponseImpl@7661e474

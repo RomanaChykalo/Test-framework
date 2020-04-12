@@ -202,5 +202,12 @@
             <version>1.7.5</version>
         </dependency>
 
+        <!--for auto adding console logs to allure report-->
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-jax-rs -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-jax-rs</artifactId>
+            <version>2.12.0</version>
+        </dependency>
     </dependencies>
   </project>

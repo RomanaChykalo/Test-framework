@@ -3,7 +3,6 @@ package client;
 /*import org.codehaus.jackson.jaxrs.JacksonJsonProvider;*/
 
 import lombok.extern.log4j.Log4j;
-import org.apache.cxf.common.logging.Log4jLogger;
 import org.apache.cxf.common.logging.LogUtils;
 import org.apache.cxf.ext.logging.LoggingInInterceptor;
 import org.apache.cxf.ext.logging.LoggingOutInterceptor;
@@ -11,13 +10,10 @@ import org.apache.cxf.jaxrs.client.ClientConfiguration;
 import org.apache.cxf.jaxrs.client.WebClient;
 import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
 import util.EnvironmentConfig;
+import io.qameta.allure.jaxrs.AllureJaxRs;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 @Log4j
 public abstract class AbstractClient {
@@ -28,6 +24,7 @@ public abstract class AbstractClient {
         LogUtils.setLoggerClass(org.apache.cxf.common.logging.Log4jLogger.class);
         List<Object> providers = new ArrayList<>();
         providers.add(new JacksonJsonProvider());
+        providers.add(new AllureJaxRs());
         client = WebClient.create(url, providers);
         addLoggingInterceptors(client);
     }

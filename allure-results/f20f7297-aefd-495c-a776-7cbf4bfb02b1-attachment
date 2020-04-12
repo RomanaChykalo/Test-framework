@@ -1,7 +1,0 @@
-2019-12-31 10:09:42 INFO  UserClient:23 - Visit URL: https://reqres.in/api/users
-2019-12-31 10:09:42 INFO  UserClient:27 - Create user with name: Olga and job: accountant
-2019-12-31 10:09:42 INFO  UserBO:24 - Get response body:  CreateUserResponse(name=Olga, job=accountant, id=729, createdAt=2019-12-31T08:09:43.238Z)
-2019-12-31 10:09:42 INFO  RegisterClient:23 - Visit URL: https://reqres.in/api/register
-2019-12-31 10:09:42 INFO  RegisterClient:28 - Register user using credential: email megogo@reqres.in, and user password: pistol
-2019-12-31 10:09:42 ERROR AllureCustomListener:64 - result : FAILURE CREATEUSERREGISTERANDLOGINTEST
-2019-12-31 10:09:42 INFO  AllureCustomListener:65 - main: Test failed: createUserRegisterAndLoginTest

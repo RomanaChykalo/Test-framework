@@ -1,2 +1,0 @@
-2019-12-14 16:08:18 ERROR AllureCustomListener:48 - result : FAILURE UPDATEUSERTEST
-2019-12-14 16:08:18 INFO  AllureCustomListener:49 - TestNG-test=TestNgParametersTest-2: Test failed: updateUserTest
